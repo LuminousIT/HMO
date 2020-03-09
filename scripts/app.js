@@ -223,12 +223,12 @@ var App = angular
 
 
   App.factory('UserService', function() {
-  return {
-    //apiRoot : 'http://apis-s.healthtouch.me/hmo/public/api/',
-    //apiRoot : 'http://172.16.1.22:6500/royalty/H/public/api/',
-    apiRoot : 'http://localhost/healthTouch/public/api/',
-    //webroot: 'http://localhost/fpanda/fpanda/'
-    webroot: 'http://localhost/healthTouch/public/',
-    //webroot: 'http://172.16.1.22:6500/fpanda/'
-  };
+    return {
+        //apiRoot : 'http://apis-s.healthtouch.me/hmo/public/api/',
+        //apiRoot : 'http://172.16.1.22:6500/royalty/H/public/api/',
+        apiRoot : 'https://apis.rodingtouch.com/hmo/public/api/',
+        //webroot: 'http://localhost/fpanda/fpanda/'
+        webroot: 'https://apis.rodingtouch.com/hmo/public/',
+        //webroot: 'http://172.16.1.22:6500/fpanda/'
+      };
 });
